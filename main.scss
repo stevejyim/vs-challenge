@@ -108,6 +108,11 @@ input[type="submit"] {
     font-weight: 500;
     font-size: 15px;
 }
+
+input[type="submit"]:hover{
+	background: #006400;
+}
+
 .reason {
 	display: block;
 	color: $blue;
