@@ -1,0 +1,139 @@
+
+$orange: #ef5f3c;
+$green: #1cbc2c;
+$blue: #30a8d7;
+$dark-gray: #424242;
+$gray: #949494;
+$light-gray: #dcdcdc;
+$off-white: #fafafa;
+$white: #ffffff;
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 8px solid $dark-gray;
+    position: relative;
+    top: -12px;
+    left: 220px;
+}
+
+.module-container {
+	// margin: 0 auto;
+	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+	width: 260px;
+	height: 215px;
+	border: 1px solid $light-gray;
+	box-shadow: 0px 1px 2px $light-gray;
+	div {
+		// margin: 0 auto;
+		width: 225px;
+	}
+}
+.pay-box {
+	position: relative;
+}
+.days-left {
+	.days-left-text {
+		color: $orange;
+		font-size: 12px;
+		font-weight: 700;
+	}
+	color: $gray;
+	padding: 10px 0;
+}
+.goal {
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	width: 260px;
+	font-size: 12px;
+	border: 1px solid $light-gray;
+	text-align: center;
+	margin-bottom: 10px;
+	background: $dark-gray;
+	// height: 50px;
+	padding: 15px 0;
+	border-radius: 3px;
+	color: $white;
+	.amt-left {
+		font-weight: 500;
+	}
+}
+
+.text-container {
+	width: 225px;
+	height: 200px;
+	margin: 0 auto;
+	color: $gray;
+	line-height: 22px;
+}
+
+section.progress-bar-container {
+	border-bottom: 1px solid $light-gray;
+	background: $off-white;
+	div.progress-bar {
+		background: $orange;
+		height: 10px;
+	}	
+}
+input {
+    margin: 10px auto;
+}
+span.currencyinput {
+    top: 20px;
+    left: 10px;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+}
+input[type="text"] {
+	border: 1px solid $light-gray;
+	height: 37px;
+	width: 80px;
+	border-radius: 5px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+input[type="submit"] {
+	width: 100px;
+	background: $green;
+	border-radius: 3px;
+	margin-left: 15px;
+	color: $white;
+	border: none;
+	height: 40px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.reason {
+	display: block;
+	color: $blue;
+	text-decoration: none;
+	font-style: italic;
+}
+.btn {
+	border: 1px solid $light-gray;
+	border-bottom: 2px solid $light-gray;
+	color: $gray;
+	padding: 10px;
+	text-decoration: none;
+	background: $off-white;
+	font-size: 12px;
+	display: inline-block;
+	font-weight: 600;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 10px auto;
+}
+.share {
+	margin-left: 7px;
+}
+.main-part {
+	margin: 0 auto;
+	width: 260px;
+	font-family: sans-serif;
+}

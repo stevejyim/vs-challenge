@@ -1,0 +1,120 @@
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #424242;
+  position: relative;
+  top: -12px;
+  left: 220px; }
+
+.module-container {
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  width: 260px;
+  height: 215px;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0px 1px 2px #dcdcdc; }
+  .module-container div {
+    width: 225px; }
+
+.pay-box {
+  position: relative; }
+
+.days-left {
+  color: #949494;
+  padding: 10px 0; }
+  .days-left .days-left-text {
+    color: #ef5f3c;
+    font-size: 12px;
+    font-weight: 700; }
+
+.goal {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  width: 260px;
+  font-size: 12px;
+  border: 1px solid #dcdcdc;
+  text-align: center;
+  margin-bottom: 10px;
+  background: #424242;
+  padding: 15px 0;
+  border-radius: 3px;
+  color: #ffffff; }
+  .goal .amt-left {
+    font-weight: 500; }
+
+.text-container {
+  width: 225px;
+  height: 200px;
+  margin: 0 auto;
+  color: #949494;
+  line-height: 22px; }
+
+section.progress-bar-container {
+  border-bottom: 1px solid #dcdcdc;
+  background: #fafafa; }
+  section.progress-bar-container div.progress-bar {
+    background: #ef5f3c;
+    height: 10px; }
+
+input {
+  margin: 10px auto; }
+
+span.currencyinput {
+  top: 20px;
+  left: 10px;
+  position: absolute;
+  font-size: 15px;
+  font-weight: 500; }
+
+input[type="text"] {
+  border: 1px solid #dcdcdc;
+  height: 37px;
+  width: 80px;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 15px; }
+
+input[type="submit"] {
+  width: 100px;
+  background: #1cbc2c;
+  border-radius: 3px;
+  margin-left: 15px;
+  color: #ffffff;
+  border: none;
+  height: 40px;
+  font-weight: 500;
+  font-size: 15px; }
+
+.reason {
+  display: block;
+  color: #30a8d7;
+  text-decoration: none;
+  font-style: italic; }
+
+.btn {
+  border: 1px solid #dcdcdc;
+  border-bottom: 2px solid #dcdcdc;
+  color: #949494;
+  padding: 10px;
+  text-decoration: none;
+  background: #fafafa;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 600;
+  width: 100px;
+  text-align: center;
+  border-radius: 3px;
+  margin: 10px auto; }
+
+.share {
+  margin-left: 7px; }
+
+.main-part {
+  margin: 0 auto;
+  width: 260px;
+  font-family: sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
